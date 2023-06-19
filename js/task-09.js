@@ -15,6 +15,6 @@ buttonEl.addEventListener('click', changeColor);
 
 function changeColor(evt) {
   bodyEl.style.backgroundColor = getRandomHexColor()
-textColor.textContent = `${getRandomHexColor()}`
+textColor.textContent = `${bodyEl.style.backgroundColor}`
 }
 console.dir(textColor)
